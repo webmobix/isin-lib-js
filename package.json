@@ -1,0 +1,33 @@
+{
+  "name": "@webmobix/isin-lib-js",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest --run --coverage --dir tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webmobix/isin-lib-js.git"
+  },
+  "keywords": [
+    "isin"
+  ],
+  "author": "Danny Thuering <danny@webmobix.com> (https://webmobix.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/webmobix/isin-lib-js/issues"
+  },
+  "homepage": "https://github.com/webmobix/isin-lib-js#readme",
+  "description": "",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "@vitest/coverage-v8": "^3.0.2",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.2"
+  }
+}
